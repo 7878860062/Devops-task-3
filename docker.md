@@ -8,7 +8,7 @@ COPY *.html /var/www/html
 
 CMD /usr/sbin/httpd -DFOREGROUND && /bin/bash
 
-COPY index.html /var/www/html/
+COPY test.html /var/www/html/
 
 EXPOSE 80
 
